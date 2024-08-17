@@ -5,7 +5,7 @@ import time
 import threading
 
 # Set up Telegram bot
-BOT_TOKEN = os.getenv("YOUR_BOT_TOKEN")
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Define owner and admin list
